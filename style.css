@@ -1,0 +1,35 @@
+
+@import url(./hscTxt.css);
+@import url(./definationAndExampleButton.css);
+
+
+
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Da 2', cursive;
+}
+body{
+    background-color: white;
+}
+
+.songa{
+    background-color: aquamarine;
+    padding: 1rem;
+
+}
+.uttor{
+    background-color: azure;
+    padding: 1rem;
+}
+.definationShow{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    transition: all ease 1s;
+}

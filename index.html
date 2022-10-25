@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="">
+    <base href="#">
+</head>
+<body>
+    <div class="center">
+        <fieldset>
+            <legend>তানভীর</legend>
+            <!-- <input type="text"> -->
+            <p style="font-size: 1.5rem;">চলো শিখি</p>
+        <p>&#60html&#62</p>
+
+        </fieldset>
+    </div>
+    <div class="buttons">
+    <!-- <p class="defination">শুরু করো</p> -->
+    <p class="defination">সঙ্গা</p>
+    <p class="example">উদাহরণ</p>
+    </div>
+    <div class="definationShow">
+        <p class="songa">কমিউনিকেশন সিস্টেম কাকে বলে?</p>
+        <p class="uttor">উ: এক পক্ষ থেকে অন্য পক্ষে নির্ভরযোগ্যভাবে ডেটা আদান প্রদানকে কমিউনিকেশন বলে। </p>
+    </div>
+    <script>
+        
+        let definationButton = document.querySelector('.defination');
+        let buttons = document.querySelector('.buttons');
+        let centerDiv = document.querySelector('.center');
+        let definationShow = document.querySelector('.definationShow');
+        definationButton.addEventListener('click',()=>{
+            definationButton.style.opacity= 0;
+            definationButton.style.rotate(x) = 90 ;
+        });
+        definationButton.addEventListener('transitionend',()=>{
+            centerDiv.style.display= 'none';       
+            centerDiv.style.display= 'none';       
+            buttons.style.display= 'none';       
+            definationShow.style.display = 'flex';
+        });
+        
+    </script>
+</body>
+</html>
